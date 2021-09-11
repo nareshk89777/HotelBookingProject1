@@ -9,45 +9,61 @@
 
 </head>
 
+<style>
+    #img1{
+        width: 60px;
+        height: 60px;
+    }
+    .content-img {
+      height: 200px;
+      width: 250px;
+    }
+    .footer-img {
+        height: 20px;
+        width: 22px;
+    }
+    
+</style>
+
 <body>
 
     <div>
 
-        <a href="index.html"><img src="assests/images/logo.png" alt="logo" height="200px" width="150px"></a>
+        <a href="index.html"><img id="img1" src="assests/images/logo.png" alt="logo"></a>
             <a href="login.html"><span>Login</span></a>
     </div>
     <div>
         <ul>
-            <li><a href="#">List View</a></li>
-            <li><a href="#">Map View</a></li>
+            <li><a href="#viewmore">List View</a></li>
+            <li><a href="#mapview">Map View</a></li>
         </ul>
         <a href="detail.html">
-        <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="Radisson blu hotel">
+        <img id="viewmore"class="content-img" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="Radisson blu hotel">
         <h2>Radisson Blu Hotel</h2>
         <p>5 Star</p>
         <p>New Delhi</p>
     </a>
-        <img src="https://media-cdn.tripadvisor.com/media/photo-w/15/06/31/5f/facade.jpg" alt="The Lalit Hotel">
+        <img class="content-img" src="https://media-cdn.tripadvisor.com/media/photo-w/15/06/31/5f/facade.jpg" alt="The Lalit Hotel">
         <h2>The Lalit New Delhi</h2>
         <p>4.5 Star</p>
         <p>New Delhi</p>
-        <img src="https://media-cdn.tripadvisor.com/media/photo-w/1b/4e/9b/11/exterior.jpg" alt="Taj Palace Hotel">
+        <img class="content-img" src="https://media-cdn.tripadvisor.com/media/photo-w/1b/4e/9b/11/exterior.jpg" alt="Taj Palace Hotel">
         <h2>Taj Palace</h2>
         <p>4.0 Star</p>
         <p>New Delhi</p>
-        <img src="https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321_960_720.png" alt="maps">
+        <img id="mapview" src="https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321_960_720.png" alt="maps">
         <p>Map View</p>
     </div>
     <div>
         <a href="contact.html" target="_blank">Contact Us</a>
         <a href="https://www.facebook.com" target="_blank"><br>
-        <img src="assests/images/facebook.png" width="22px" height="20px" alt="facebook">
+        <img  class="footer-img" src="assests/images/facebook.png" alt="facebook">
         </a>
         <a href="https://www.instagram.com" target="_blank">
-            <img src="assests/images/instagram.png" width="22px" height="20px" alt="facebook">
+            <img  class="footer-img" src="assests/images/instagram.png" alt="facebook">
             </a>
             <a href="https://www.twitter.com" target="_blank">
-                <img src="assests/images/twitter.png" width="22px" height="20px" alt="facebook">
+                <img  class="footer-img" src="assests/images/twitter.png" alt="facebook">
                 </a>
     <p><span>&copy</span> 2020 ROOM SEARCH PVT.LTD</p>
     </div>
