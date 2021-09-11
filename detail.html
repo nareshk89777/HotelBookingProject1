@@ -2,59 +2,46 @@
 <html>
 
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Detail</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    
+    <link rel="stylesheet" href="styles/detail.css">
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href="styles/index.css">
    
+
 </head>
-<style>
-    body {
-        width: 100%;
-        height: 100%;
-    }
-    #img1{
-        width: 60px;
-        height: 60px;
-    }
-
-    .footer-img {
-        height: 20px;
-        width: 22px;
-    }
-    .content-img {
-        height: 500px;
-        width: 500px;
-    }
-
-</style>
 
 <body>
+     
+    <div id="container">
+        <header>
+            <a href="index.html">
+                <img id="image_logo" src="assests/images/logo.png" alt="logo">
+            </a>
+            <a href="login.html">Login</a>
 
-    <div>
+        </header>
+        <div class="content">
 
-        <a href="index.html"><img id="img1" src="assests/images/logo.png" alt="logo" "></a>
-        <a href="login.html"><span>Login</span></a>
-    </div>
-    <div>
-        <img class="content-img" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" ">
-            </br>
-            <form action="payment.html" method="get">
-                <label for="adults">Adults:</label>
-                <input type="number" id="adults" name="adults" min="1" max="5" required><br>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required><br>
-                <label for="fromdate">From Date:</label>
-                <input type="date" id="fromdate" name="fromdate" required><br>
-                <label for="todate">To Date:</label>
-                <input type="date" id="todate" name="todate" required><br> 
-                <label for="total">Total:</label>  
-                <input type="number" id="total" name="total" readonly><br>   
-                <a href="payment.html"><button id="login">Book Now</button></a>
-                </form> 
-                <div>
-                
+            <div class="poolside">
+                <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
+                    height="500px" width="500px">
+            </div>
+            <div class="booknow">
+                <form action="payment.html" method="get">
+                    <label for="adults">Adults:</label>
+                    <input type="number" id="adults" name="adults" min="1" max="5" required><br>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required><br>
+                    <label for="fromdate">From Date:</label>
+                    <input type="date" id="fromdate" name="fromdate" required><br>
+                    <label for="todate">To Date:</label>
+                    <input type="date" id="todate" name="todate" required><br>
+                    <label for="total">Total:</label>
+                    <input type="number" id="total" name="total" readonly><br>
+                    <a href="payment.html"><button id="login">Book Now</button></a>
+                </form>
+            </div>
+            <div class="description">
                 <h2>Redisson Blu Hotel</h2>
                 <p>RATING</p>
                 <p>5 Star</p>
@@ -66,23 +53,32 @@
                     <li>Fitness centre</li>
                     <li>Pool</li>
                 </ul>
-        <h5>DESCRIPTION</h5>
-        <p>Radisson Blu is an international chain of hotels operated by Radisson Hotels. With roots dating back to the 1960s, the Radisson Blu brand name came into existence in 2009 with a rebranding from Radisson SAS. Its hotels are found in major cities, key airport gateways and leisure destinations.</p>
-    </div>
-    <div>
-        <a href="contact.html" target="_blank">Contact Us</a>
-        <a href="https://www.facebook.com" target="_blank"><br>
-        <img class="footer-img" src="assests/images/facebook.png"  alt="facebook">
-        </a>
-        <a href="https://www.instagram.com" target="_blank">
-            <img class="footer-img" src="assests/images/instagram.png"  alt="facebook">
-            </a>
-            <a href="https://www.twitter.com" target="_blank">
-                <img class="footer-img" src="assests/images/twitter.png"  alt="facebook">
-                </a>
-    <p><span>&copy</span> 2020 ROOM SEARCH PVT.LTD</p>
-    </div>
+                <h5>DESCRIPTION</h5>
 
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae laudantium fugiat praesentium, facere
+                    quod odio ex eos, ea explicabo eaque esse, non ab animi quisquam provident velit sapiente itaque
+                    molestias?</p>
+            </div>
+        </div>
+
+        <footer>
+            <a href="contact.html" target="_blank">Contact Us</a>
+            <div>
+                <a href="https://www.facebook.com" target="_blank">
+                    <img class="social_icons" src="assests/images/facebook.png" alt="">
+                </a>
+                <a href="https://www.instagram.com" target="_blank">
+                    <img class="social_icons" src="assests/images/instagram.png" alt="">
+                </a>
+                <a href="https://www.twitter.com" target="_blank">
+                    <img class="social_icons" src="assests/images/twitter.png" alt="">
+                </a>
+            </div>
+            <div>
+                © 2020 ROOM SEARCH PVT. LTD.
+            </div>
+        </footer>
+    </div>
 </body>
 
 </html>

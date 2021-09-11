@@ -1,0 +1,26 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#container{
+    margin: 0px;
+    padding: 0px;
+}
+#image_logo{
+    height: 60px;
+    width: 60px;
+}
+#image_hotel{
+    height: 500px;
+    width: 500px;
+}
+.social_icons{
+    height: 20px;
+    width: 22px;
+}
+.content{
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
